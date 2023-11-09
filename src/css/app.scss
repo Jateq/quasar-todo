@@ -3,7 +3,7 @@
 .main-image{
   position: relative;
   width: 100%;
-  min-width: 120%;
+  min-width: 100%;
   height: auto;
 }
 .overlay {
@@ -17,7 +17,7 @@
 .main-text{
   display: flex;
   color: white;
-  margin-top: 80px;
+  margin-top: 190px;
   font-size: 30px;
   justify-content: center;
   justify-items: center;
@@ -26,5 +26,45 @@
 .todo-list{
   margin-top:50px;
   color: white;
+  width: 100%;
+
+}
+
+.q-item{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1px;
   background-color: rgba(255,255,255,0.3) ;
+
+}
+
+.done{
+  text-decoration: line-through;
+  color: #a1a1a1;
+  background-color: rgba(0, 0, 0, 0.34);
+}
+
+.trash{
+  display: flex;
+  text-decoration: none;
+  padding: 0;
+}
+.trash button{
+  margin-top: 5px;
+  font-size: 18px;
+  background-color: #ffffff;
+  color: #0b8aa1;
+  border-radius: 2px;
+  border:none;
+}
+.trash button:hover{
+  color: #ff0000;
+  border-radius: 2px;
+  border:none;
+}
+.q-input{
+  padding-left: 15px;
+  padding-right: 3px;
+  color: white;
+
 }
